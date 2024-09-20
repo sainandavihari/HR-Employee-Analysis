@@ -1,13 +1,11 @@
 # HR-Employee-Analysis
-Thisproject demonstrate my proficiency in SQL and my capacity to analyze complex data. They exhibit my abilities in data investigation, visualization, and analysis.
+This project demonstrate in SQL and analyze complex data. They exhibits in data investigation, visualization, and analysis.
 
 Analyzing Employee Trends
 [Analyzing Employee Trends.csv](Analyzing Employee Trends.sql)
 
 # Project Description
 This project involved performing extensive analysis on HR employee data to uncover insights and trends. The data contained information on employees across departments, including demographics, job roles, satisfaction, attrition and more.
-
-I utilized SQL to explore the data and answer key business questions to derive actionable insights.
 
 # Tasks Performed
 Performed general data exploration and validation checks on the HR dataset
@@ -31,10 +29,7 @@ Organized and presented findings in a clear format for consumption by leadership
 # Exploring Trends in Automotive Industry
 [Exploring Trends in Automotive Industry.csv](Exploring Trends in Automotive Industry.sql)
 
-# Project Description
-This project involved performing extensive analysis on a database of car sales information to uncover insights into pricing trends, model performance, and more. The data contained details on car models, pricing history, mileage, transmission types and other attributes.
-
-I utilized SQL to explore the data and derive insights to guide pricing, inventory and marketing strategies.
+This involved performing extensive analysis on a database of car sales information to uncover insights into pricing trends, model performance, and more. The data contained details on car models, pricing history, mileage, transmission types and other attributes.
 
 # Tasks Performed
 Performed general data exploration and validation checks on the cars dataset
@@ -59,22 +54,6 @@ Used SQL techniques like WINDOW functions, CTEs, JOINs for advanced analysis
 
 Presented findings in a clear format for consumption by leadership and stakeholders
 
-Overall, this project enabled me to showcase my SQL skills to derive data-driven insights from car sales data to support key business decisions and strategy.
-
-# Call Center Data Cleaning
-[call_center.csv](call center.sql)
-
-# Project Description
-This project involved an analysis of call center data to gain insights into call volume, customer satisfaction, and service performance. The data was contained in a MySQL database table called call_center within the call_centerdata schema.
-
-# Tasks Performed
-Imported the call_center table data into a MySQL database for analysis
-Performed initial data cleaning Changed date format to a standard YYYY-MM-DD format Updated blank values for csat_score to NULL
-Generated table summary statistics Counted total number of rows Counted total number of columns
-Analyzed distinct values and distributions Found distinct values for sentiment, city, and call_center columns Calculated value counts and percentages by city
-Analyzed call volume Calculated call counts by day of week Identified maximum call duration by day
-Analyzed customer satisfaction Calculated minimum, maximum, and average csat scores Removed scores of 0 from average calculation
-Analyzed service performance Calculated response time counts by call center Ordered to identify best and worst performing centers
 # About SQL
 SQL (Structured Query Language) is a programming language for interacting with relational databases. Key SQL capabilities:
 
@@ -86,7 +65,7 @@ Stored procedures - reusable routines for logic
 Window functions - analytics functions for rankings etc.
 For these examples, I used Microsoft SQL Server Management Studio.
 
-# Usage
+# Installation
 Install a SQL database such as SQL Server Express
 Import any .sql files to run the queries
 Modify the queries for your own database
